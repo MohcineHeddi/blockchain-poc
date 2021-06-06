@@ -1,0 +1,10 @@
+version: '3'
+services:
+  blockchain:
+    build:
+      context: ./blockchain
+      dockerfile: Dockerfile
+    volumes:
+      - "./blockchain:/home/app/blockchain"
+    ports:
+      - "5000:5000"
