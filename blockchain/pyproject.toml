@@ -6,6 +6,10 @@ authors = ["mheddi <mohcine.heddi@protonmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+Flask = "^2.0.1"
+pytest = "^6.2.4"
+ipython = "^7.24.1"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 
