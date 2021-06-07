@@ -27,4 +27,4 @@ class Block:
         def mine_block(self, complexity_level: int) -> None:
             while self.hash and self.hash[:complexity_level] != ("0" * complexity_level):
                 self.nonce += 1
-                self.hash = self._compute_hashing()
+                self.hash = self.compute_hashing()
