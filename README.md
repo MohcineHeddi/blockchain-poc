@@ -6,7 +6,7 @@ First build the docker images using the following command
 ```bash
 docker-compose build
 ```
-Once the docker images are build, you can now start your containers by entering:
+Once the docker images are built, you can start your containers by entering:
 ```bash
 docker-compose up
 ```
